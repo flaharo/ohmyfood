@@ -25,7 +25,7 @@ header p
 #menus
 {
 	padding-top: 25px;
-	height: 400px;
+	height: 100%;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -56,6 +56,25 @@ header p
 	width: auto;
 	box-shadow: 2px 2px 2px 2px grey;
 }
+aside
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	height: 75px;
+}
+#soon
+{
+	width: 250px;
+	height: 45px;
+	background-color: #549C84;
+	text-align: center;
+	color: yellow;
+	border-radius: 15px;
+}
 /*bas de page*/
 footer
 {
@@ -67,7 +86,6 @@ footer
 	width: 100%;
 	padding-left: 55px;
 	background-color: #549C84;
-	position-absolute:0;
 }
 footer p,a
 {
@@ -79,5 +97,4 @@ footer p,a
 	width: 100%;
 	height: 100%;
 	justify-content: center;
-	position-absolute:0;
 }
