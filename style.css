@@ -37,10 +37,37 @@ header p
 	height: 350px;
 	width: 240px;
 	box-shadow: 2px 2px 2px 2px grey;
-	background-color: lightpink;
+	background-color: #FBDCDB;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: serif;
+	flex-direction: column;
+	color: white;
+}
+.restaurant
+{
+	margin: 0;
+}
+.restaurant p
+{
+	text-align: center;
+	margin: 0;
+}
+.menu
+{
+	margin: 0;
+}
+.menu p
+{
+	text-align: center;
+	font-size: 1.8rem;
+	margin: 0;
+	font-weight: 500;
+}
+#1
+{
+	font-family: 'Roboto', sans-serif;
 }
 #menu2 img
 {
@@ -76,7 +103,7 @@ aside
 	height: 45px;
 	background-color: #549C84;
 	text-align: center;
-	color: yellow;
+	color: #D6C054;
 	border-radius: 15px;
 }
 /*bas de page*/
@@ -86,9 +113,8 @@ footer
 	flex-direction: row;
 	text-align: center;
 	justify-content: space-around;
-	height: 100px;
+	height: 99%;
 	width: 100%;
-	padding-left: 55px;
 	background-color: #549C84;
 }
 footer p,a
