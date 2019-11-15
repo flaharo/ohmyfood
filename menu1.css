@@ -26,10 +26,16 @@ h1
 #menu
 {
 	width: 70%;
-	height:auto;
+	height:50%;
 	background-color: #FBDCDB;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
-
+h2
+{
+	text-align: center;
+}
 /*bas de page*/
 footer
 {
