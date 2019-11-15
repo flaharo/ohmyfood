@@ -15,7 +15,7 @@ header
 	text-align: center;
 	justify-content: center;
 }
-header p
+h1
 {
 	font-size: 2rem;
 	font-weight: 700;
@@ -41,8 +41,8 @@ header p
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: serif;
 	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
 	color: white;
 }
 .restaurant
@@ -53,6 +53,10 @@ header p
 {
 	text-align: center;
 	margin: 0;
+}
+.restaurant i
+{
+	font-size: 1.6rem;
 }
 .menu
 {
