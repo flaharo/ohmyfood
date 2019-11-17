@@ -37,26 +37,60 @@ section
 #menu
 {
 	width: 70%;
+	height: 90%;
 	background: pink;
-	display: flex;
-	flex-direction: column;
-	margin: 0;
-}
-.titre
-{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-#un, #deux, #trois
+/*note de musique+nom du restaurant*/
+#namerest
 {
-	background-color:pink;
 	display: flex;
-	justify-content:space-around;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-around;
+}
+#namerest p
+{
+	text-align: center;
+	color:black;
+	line-height: 150%;
+	font-family: 'Leckerli One', cursive;
+	font-size: 2rem;
+}
+#namerest i
+{
+	font-size: 5rem;
+	background: linear-gradient(pink,white);
+	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+}
+/*fin note de musique+nom du restaurant*/
+/*ce qui ne bouge pas la présentation des menus*/
+#entree, #plat, #dessert
+{
+	display: flex;
+	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	
+	width: 100%;
+	height: auto;
+}
+.titre
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.titre hr
+{
+	width: 75px;
+	height: 2px;
+	color: black;
+	background-color: black;
 }
 .ensemble
 {
