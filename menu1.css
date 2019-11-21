@@ -2,7 +2,7 @@
 /* CSS Document */
 body
 {
-	font-family: montserrat,arial, sans-serif;
+	font-family: montserrat, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	margin: 0;
 	width: 100%;
 	height: 100%;
@@ -28,7 +28,7 @@ h1
 section
 {
 	width: 100%;
-	height: 100%;
+	height: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -36,13 +36,16 @@ section
 }
 #menu
 {
-	width: 70%;
-	height: 90%;
+	width: 80%;
 	background: pink;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.contenu
+{
+	width: 1000px;
 }
 /*note de musique+nom du restaurant*/
 #namerest
@@ -57,7 +60,7 @@ section
 	text-align: center;
 	color:black;
 	line-height: 150%;
-	font-family: 'Leckerli One', cursive;
+	font-family: 'Zhi Mang Xing', cursive;
 	font-size: 2rem;
 }
 #namerest i
@@ -75,19 +78,20 @@ section
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 100%;
+	width: 650px;
 	height: auto;
 }
 .titre
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+	width: 650px;
 }
 .titre hr
 {
-	width: 75px;
+	width: 200px;
 	height: 2px;
 	color: black;
 	background-color: black;
