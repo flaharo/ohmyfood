@@ -45,6 +45,39 @@ h1
 	font-family: 'Roboto', sans-serif;
 	color: white;
 }
+#menu2
+{
+	height: 350px;
+	width: 240px;
+	box-shadow: 2px 2px 2px 2px grey;
+	background-color: #FBDCDB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#menu3
+{
+	height: 350px;
+	width: 240px;
+	box-shadow: 2px 2px 2px 2px grey;
+	background-color: #FBDCDB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#menu4
+{
+	height: 350px;
+	width: 240px;
+	box-shadow: 2px 2px 2px 2px grey;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .restaurant
 {
 	margin: 0;
