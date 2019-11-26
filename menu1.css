@@ -2,8 +2,9 @@
 /* CSS Document */
 body
 {
-	font-family: cursive, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family: montserrat, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	margin: 0;
+	/* ma-shan-zheng-regular - latin */
 }
 /*début header*/
 header
@@ -37,12 +38,13 @@ section
   line-height:70px;
   font-size:2rem;
   font-family:cursive;
-	padding-top: 10px;
+  padding-top: 10px;
+	border:1px solid red;
 }
 #menutop i
 {
   font-size:6rem;
-  background: -webkit-linear-gradient(left,#833ab4, #fd1d1d,#fcb045);
+  background: -webkit-linear-gradient(left,#D25C5C, #E89777);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -65,7 +67,7 @@ h3::before, h3::after
 h3
 {
   text-align:center;
-  font-family:cursive;
+  font-family: cursive;
   border:1px solid red;
 }
 ul
@@ -77,9 +79,13 @@ ul
   line-height: 145%;
   font-family:cursive;
 }
-.food
+.menu .food
 { 
   width:80%;
+}
+.food
+{
+	text-align: left;
 }
 /*fin note de musique+nom du restaurant*/
 .retour
@@ -94,16 +100,28 @@ ul
 }
 .menubottom
 {
-	font-family: cursive;
+	font-family: 'Ma Shan Zheng', cursive;
+	border:2px solid yellow;
+	margin-top: 3px;
 }
 .menubottom i
 {
   font-size:2em;
   padding-bottom:15px;
   margin:3px;
-  background: -webkit-linear-gradient(left,#833ab4, #fd1d1d,#fcb045);
+  background: -webkit-linear-gradient(left,#D25C5C, #E89777);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.back i
+{
+  font-size:2rem;
+  margin:10px;
+  padding:10px;
+  border-radius:50%;
+  text-align:center;
+  background-color: grey;
+  color:white;
 }
 /*bas de page*/
 footer
