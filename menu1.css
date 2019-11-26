@@ -37,7 +37,7 @@ section
   text-align:center;
   line-height:70px;
   font-size:2rem;
-  font-family:cursive;
+  font-family: 'Ma Shan Zheng', cursive;
   padding-top: 10px;
 	border:1px solid red;
 }
@@ -49,7 +49,7 @@ section
   -webkit-text-fill-color: transparent;
 }
 /*menu*/
-#menu
+.menu
 {
   text-align:center;
   background-color:#FCDFDB;
@@ -67,7 +67,9 @@ h3::before, h3::after
 h3
 {
   text-align:center;
-  font-family: cursive;
+  font-family: 'Kalam', cursive;
+	font-weight: 400;
+	word-spacing: .1.5em;
   border:1px solid red;
 }
 ul
@@ -77,11 +79,14 @@ ul
   height:100px;
   display:inline-block;
   line-height: 145%;
-  font-family:cursive;
+  font-family: 'Kalam', cursive;
+	font-weight: 300;
+	
+	
 }
 .menu .food
 { 
-  width:80%;
+  width:50%;
 }
 .food
 {
@@ -101,8 +106,10 @@ ul
 .menubottom
 {
 	font-family: 'Ma Shan Zheng', cursive;
+	font-size: 1.5rem;
 	border:2px solid yellow;
 	margin-top: 3px;
+	letter-spacing: .1.4em;
 }
 .menubottom i
 {
