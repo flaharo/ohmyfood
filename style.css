@@ -119,6 +119,32 @@ background: -webkit-linear-gradient(left, #D25C5C, #E89777);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+#menu4
+{
+	height: 350px;
+	width: 240px;
+	box-shadow: 2px 2px 2px 2px grey;
+	background-color:#FDFFFC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  text-align:center;
+	font-family: 'Satisfy', cursive;
+	font-size: 1.7rem;
+	color: black;
+}
+.txt4
+{
+	font-family: 'Bitter', serif;
+	color:#87C67F;
+}
+#quatre
+{
+	  background: -webkit-linear-gradient(#87C67F, #D2EBB4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /*Prochainement*/
 aside
 {
