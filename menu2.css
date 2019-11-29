@@ -17,7 +17,7 @@ header
 	text-align: center;
 	justify-content: center;
 }
-h1
+h2
 {
 	font-size: 2rem;
 	font-weight: 700;
@@ -49,7 +49,7 @@ section
 .menu
 {
   text-align:center;
-  background-color:#FCDFDB;
+  background-color:#FFF5FE;
   width:90%;
   margin:auto;
 }
@@ -88,23 +88,6 @@ ul
 	text-align: left;
 }
 /*fin note de musique+nom du restaurant*/
-.menubottom
-{
-	font-family: 'Ma Shan Zheng', cursive;
-	font-size: 1.5rem;
-	border:2px solid yellow;
-	margin-top: 3px;
-	letter-spacing: .1.4em;
-}
-.menubottom i
-{
-  font-size:2em;
-  padding-bottom:15px;
-  margin:3px;
-  background: -webkit-linear-gradient(left,#D25C5C, #E89777);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .back i
 {
   font-size:2rem;
