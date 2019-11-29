@@ -34,6 +34,7 @@ section
 	align-content: center;
 	border: 1px solid red;
 }
+/*un menu*/
 #menu1
 {
 	height: 350px;
@@ -59,17 +60,64 @@ background: -webkit-linear-gradient(left, #D25C5C, #E89777);
   text-align:center;
   line-height:100px;
 }
-.restaurant p
-{
-	text-align: center;
-	margin: 0;
-}
 .txt1
 {
   text-transform:uppercase;
 	font-family: 'Kalam', cursive;
-	font-weight: 400;
 	font-size: 2rem;
+}
+/*fin du menu*/
+#menu2
+{
+	height: 350px;
+	width: 240px;
+	box-shadow: 2px 2px 2px 2px grey;
+	background-color: #FFF5FE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  text-align:center;
+	font-family: 'Satisfy', cursive;
+	font-size: 1.7rem;
+	color: black;
+}
+.txt2
+{
+	font-family: 'Bitter', serif;
+	color:#C18C5F;
+}
+#deux
+{
+	  background: -webkit-linear-gradient(#C18C5F, #8638a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#menu3
+{
+	height: 350px;
+	width: 240px;
+	box-shadow: 2px 2px 2px 2px grey;
+	background-color: #EDEFEE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  	text-align:center;
+	font-family: 'Satisfy', cursive;
+	font-size: 1.7rem;
+	color: black;
+}
+.txt3
+{
+	font-family: 'Poppins', sans-serif;
+	color:#A9D6EA;
+}
+#trois
+{
+	  background: -webkit-linear-gradient(right,#586FBC, #A9D6EA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*Prochainement*/
 aside
@@ -94,9 +142,10 @@ footer
 	flex-direction: row;
 	text-align: center;
 	justify-content: space-around;
-	height: 67px;
+	height: 50px;
 	width: 100%;
 	background-color: #549C84;
+	border: 1px solid red;
 }
 footer p,a
 {
