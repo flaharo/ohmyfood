@@ -60,10 +60,10 @@ background: -webkit-linear-gradient(left, #D25C5C, #E89777);
   text-align:center;
   line-height:100px;
 }
-.txt1
+article h4: nth-child(1)
 {
   text-transform:uppercase;
-	font-family: 'Kalam', cursive;
+	font-family: 'kalam',cursive;
 	font-size: 2rem;
 }
 /*fin du menu*/
