@@ -2,7 +2,7 @@
 /* CSS Document */
 body
 {
-	font-family: montserrat,arial, sans-serif;
+	font-family: 'montserrat','arial', sans-serif;
 	margin: 0;
 }
 /*haut de page*/
@@ -35,7 +35,7 @@ section
 	border: 1px solid red;
 }
 /*un menu*/
-#menu1
+#menu1,#menu2,#menu3,menu4
 {
 	height: 350px;
 	width: 240px;
@@ -46,9 +46,6 @@ section
 	align-items: center;
 	flex-direction: column;
   text-align:center;
-	color: black;
-	  font-family: 'Ma Shan Zheng', cursive;
-	font-size: 1.8rem;
 }
 #menu1 i
 {
@@ -60,7 +57,13 @@ background: -webkit-linear-gradient(left, #D25C5C, #E89777);
   text-align:center;
   line-height:100px;
 }
-section h4:nth-child(3)
+h3:nth-child(2)
+{
+    color: black;
+	  font-family: 'Ma Shan Zheng', cursive;
+	font-size: 1.8rem;
+}
+h4:nth-child(2)
 {
   text-transform:uppercase;
     font-family: 'kalam',cursive;
@@ -108,12 +111,12 @@ section h4:nth-child(3)
 	font-size: 1.7rem;
 	color: black;
 }
-.txt3
+article:nth-child(3)
 {
 	font-family: 'Poppins', sans-serif;
 	color:#A9D6EA;
 }
-#trois
+article:nth-child(3)
 {
 	  background: -webkit-linear-gradient(right,#586FBC, #A9D6EA);
   -webkit-background-clip: text;
@@ -134,12 +137,12 @@ section h4:nth-child(3)
 	font-size: 1.7rem;
 	color: black;
 }
-.txt4
+section:nth-child(4)
 {
 	font-family: 'Bitter', serif;
 	color:#87C67F;
 }
-#quatre
+article h3:nth-child(4)
 {
 	  background: -webkit-linear-gradient(#87C67F, #D2EBB4);
   -webkit-background-clip: text;
